@@ -1,55 +1,88 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-* {
+*
+*{
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
-
-body {
-  font-family: "Poppins", sans-serif;
+.logo{
+  height: 75px;
+  width: 150px;
 }
-
-a{
-    color: black;
-    text-decoration: none;
-    margin-left: 20px;
-    right: 20px;
-}
-.type{
-    margin-bottom: 50px;
-}
-.profile{
-    
-    border-radius: 50%;
-    border: 5px solid black;
-}
-body{
-    background:bisque;
-    color: black;
-}
-
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 3rem 9%;
-  background: pink;
+nav{
+  background-color:pink;
+  overflow: hidden;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: flex-end;
-  z-index: 100;
 }
-
-
-.navbar a{
-  font-size: 1.8rem;
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-decoration: none;
   color: black;
-  margin-left: 4rem;
-
+  font-weight: bold;
 }
-section {
-  min-height: 100vh;
-  padding: 5rem 9% 5rem;
+nav ul li a:hover{
+  color: white;
 }
-
+.sess{
+  margin-bottom: 50px;
+}
+.sess2{
+  margin-top: 5%;
+  margin-bottom: 3%;
+  border-radius: 50%;
+  border: 5px solid black;
+  width:300px ; 
+  height: 300px;
+}
+.aboutme{
+  margin-bottom: 10px;
+}
+.aboutme span{
+  color: pink;
+}
+.fav{
+  margin-bottom: 10px;
+}
+.fav span{
+  color: pink;
+}
+.schoolp{
+  margin-bottom: 10px;
+}
+.schoolp span{
+  color: pink;
+}
+.talents{
+  margin-bottom: 10px;
+}
+.talents span{
+  color: pink;
+}
+footer{
+  background-color: pink;
+}
+footer{
+display: flex;
+justify-content: center;
+}
+footer a{
+margin-top: 10px;
+margin-bottom: 10px;
+color: black;
+font-weight: bold;
+text-decoration: none;
+margin-left: 20px; 
+right: 20px;
+}
+footer a:hover{
+  color: white;
+}
