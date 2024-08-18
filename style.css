@@ -17,24 +17,7 @@ nav{
   align-items: center;
   justify-content: space-between;
 }
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 10px 20px;
-}
-nav ul li a{
-  margin-bottom: 20px;
-  margin-top: 20px;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-nav ul li a:hover{
-  color: white;
-}
-.sess{
-  margin-bottom: 50px;
-}
+
 .profile{
   margin-top: 5%;
   margin-bottom: 3%;
