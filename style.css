@@ -28,13 +28,28 @@ body{
     color: black;
 }
 
-nav,
-.nav-links {
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 3rem 9%;
+  background: pink;
   display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: 100;
 }
 
-nav {
-  justify-content: space-around;
-  align-items: center;
-  height: 17vh;
+
+.navbar a{
+  font-size: 1.8rem;
+  color: black;
+  margin-left: 4rem;
+
 }
+section {
+  min-height: 100vh;
+  padding: 5rem 9% 5rem;
+}
+
