@@ -12,7 +12,7 @@ body {
   background-color: #E5D3B3;
 }
 nav{
-  background-color:pink;
+  background-color:beige;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -29,7 +29,7 @@ nav{
 }
 
 nav{
-  background-color:beige;
+  background-color:pink;
   overflow: hidden;
   display: flex;
   align-items: center;
