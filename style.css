@@ -9,9 +9,10 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #E5D3B3;
 }
 nav{
-  background-color:beige;
+  background-color:pink;
   overflow: hidden;
   display: flex;
   align-items: center;
