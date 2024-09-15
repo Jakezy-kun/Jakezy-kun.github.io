@@ -10,7 +10,7 @@ img {
  font-weight: bold;
 }
 
-.ingredients{
+.ingredients li{
     list-style: square;
 }
 
@@ -26,6 +26,6 @@ color: gray;
     color: SeaGreen;
 }
 
-h1,h2.p,li{
+h1,h2,p,li{
     font-family: Helvetica;
 }
