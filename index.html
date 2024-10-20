@@ -3,80 +3,336 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type href="/Images/icons8-done-16.png">
+    <link rel="icon" type href="/Images/177-1773270_app-icon-detective-conan-removebg-preview.png">
+</head>
 </head>
 <body>
-    
-    <nav>
-        <ul>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Experience">Experience</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contacts">Contacts</a></li>
+
+<header class="header">
+
+    <a href="#home" class="logo">
+        My<span>Portfolio</span>
+    </a>
+
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
             
-        </ul>
-    </nav>
-    <hr>
-<center>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#favorites">Favorites</a>
+                <a href="#services">Talents</a>
+                <a href="#projects">Projects</a>
+                <a href="#badges">Badges</a>
+                <a href="#contact">Contact</a>
+        </nav>
+        <button id="light-mode-toggle" class="gradient-btn">Light Mode</button>
+</header>    
+
+    <section class="home" id="home">
+        <div class="home-content">
+         <h1>Hello World, <span>Ferdinand</span></h1>  
+         <h3>I'am a<span> Web Developer</span></h3>
+         <p> Hello there! I'm a novice web developer who is enthusiastic about creating websites and applications that are not only functional but also visually attractive. 
+             At the moment, I am sharpening my abilities in both frontend and backend development, and I am eager to engage in projects that challenge the limits of creativity 
+             and technology.</p>
+
+
+            <div class="social-icons">
+                <a href="https://github.com/Jakezy-kun" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+
+                <a href="https://www.facebook.com/ferdinand.manteza.9/" target="_blank">
+                    <i class='bx bxl-facebook-circle' ></i>
+                </a>
+
+                <a href="https://www.instagram.com/jakez_kun/" target="_blank">
+                    <i class='bx bxl-instagram-alt' ></i>
+                </a>
+
+                <a href="https://codepen.io/Jakezy-kun" target="_blank">
+                    <i class='bx bxl-codepen' ></i>
+                </a>
+
+                <a href="https://youtu.be/bqhCT9gdvD0?feature=shared" target="_blank">
+                    <i class='bx bxl-youtube'></i>
+                </a>
+            </div>
+
+                <div class="btn-group">
+                <a href="/Webdev Activities/Fashion Blog/index.html" target="_blank" class="btn">Fashion Blog</a>
+                <a href="/Webdev Activities/Healthy Recipe/index.html" target="_blank" class="btn">Healthy Recipe</a>
+                <a href="/Webdev Activities/Olivia Woodruff Portfolio/index.html" target="_blank" class="btn">Olivia Woodruff Portfolio</a>
+          </div>
+        </div>
+        
+        <div class="home-img">
+             <img src="/Images/cropped_image (3).png" alt="profile image">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-img">
+             <img src="/Images/profile-pic-2.jpg" alt="profile image">
+        </div>
+
+        <div class="about-content">
+            <h2>About<span> Me</span></h2>
+            <p>My name is Ferdinand M. Manteza Jr., and I am 21 years old. I am a web developer based in Davao City, Philippines, and currently a second-year student pursuing a Bachelor’s Degree in Information Technology at the University of the Immaculate Conception. 
+                I have a strong passion for technology and enjoy learning about the latest advancements in the field. I am particularly interested in web development and back-end development.</p>
+            <!-- <a href="https://open.spotify.com/playlist/0UfyaNUdNRw2OayV76aNS5?si=0ANSJLMCRueZJthKQuT2CQ" target="_blank" class="btn">JakeZ's Playlists</a> -->
+            <iframe class="spotify" src="https://open.spotify.com/embed/playlist/0UfyaNUdNRw2OayV76aNS5?utm_source=generator&theme=0" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <section class="favorites" id="favorites">
+        <h2 class="heading">Favorites</h2>
+        
+        <h2 class="heading">Anime</h2>
+        <div class="container">
+            <img src="/Favorites Images/Anime Images/Detective Conan.jpg" alt="Detective Conan">
+            <img src="/Favorites Images/Anime Images/One Piece.jpg" alt="One Piece">
+            <img src="/Favorites Images/Anime Images/Inuyasha.jpg" alt="Inuyasha">
+            <img src="/Favorites Images/Anime Images/Bungo Stray Dogs Season.jpg" alt="Bungo Stray Dogs">
+            <img src="/Favorites Images/Anime Images/bleach poster.jpg" alt="Bleach">
+        </div>
     
-        <img src="/Images/profile picture.jpg" class="profile" alt="profile picture"style="width:300px;height:300px;" >
-        <p> 
-            <H2>About Me</H2> 
-            <br> Hello! My name is <b>Ferdinand M. Manteza Jr.</b>, and I am currently a Second-year student pursuing a Bachelor’s Degree in Information Technology at the University of the Immaculate Conception. 
-            <br>I have a strong passion for technology and enjoy learning about the latest advancements in the field. I am particularly interested in the areas of web development, front-end, and back-end development. 
-        </p>
-        <br></br>
-
-        <H2>Favorites</H2>   
-        <ul style="display: inline-block;"></ul>
-            <li>Anime</li>
-            <li>K-drama</li>
-            <li>Manga</li>
-            <li>Games</li>
-        </ul>
-        <iframe class="spotify" src="https://open.spotify.com/embed/playlist/0UfyaNUdNRw2OayV76aNS5?utm_source=generator&theme=0" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <h2 class="heading">K-drama</h2>
+        <div class="container">
+            <img src="/Favorites Images/K-drama Images/Queen of tears.jpg" alt="Queen of Tears">
+            <img src="/Favorites Images/K-drama Images/Business Proposal.jpg" alt="Business Proposal">
+            <img src="/Favorites Images/K-drama Images/OUR BELOVED SUMMER.jpg" alt="Our Beloved Summer">
+            <img src="/Favorites Images/K-drama Images/Family by Choice KDrama Poster.jpg" alt="Family by Choice">
+            <img src="/Favorites Images/K-drama Images/Welcome to Waikiki season 2.jpg" alt="Welcome to Waikiki Season 2">
+        </div>
         
-        <H2>School Projects</H2>
-        <p>
-            <li>In my freshmen year I have created a Hotel Management System plus with a MYSQL XAMP database using Java programming language.</li>
-            <li>In my Data Structures and Algorithm course I have created a Water Tank and Binary Search Tree System using Java programming language.</li>
-            <li>I created a prototype also in my course Human Computer Interaction using FIGMA </li>
-            
-            <br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bqhCT9gdvD0?si=fDsVCrr5f6drEqZN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            
-        </p>
-        
-        </br>    
-        <H2>Talents</H2>sss
-        <p>ss
-            <li>I am still searching for my talent hopefully it involves programming.</li>
-        </p>
-        <br>
-
-        <H2>HTML Activity Links</H2>
-        <a href="html/fashionblog/index.html"target="_blank"><img src="/Images/fashion-boutique-store-boutique-fashion-store-svgrepo-com.png"style="width:42px;height:42px;"/></a>
-        <a href="/Healthy Recipe/index.html"target="_blank"><img src="/Healthy Recipe/recipe-svgrepo-com.png"style="width:42px;height:42px;"/></a>   
-        <a href="/Olivia Woodruff Portfolio/index.html"target="_blank"><img src="/Images/portfolio-svgrepo-com.png"style="width:42px;height:42px;"/></a> 
-        <br>
-
-        <br>
-        <hr>
-        <a href="https://github.com/Jakezy-kun"target="_blank"><img src="/Images/github.png"style="width:42px;height:42px;"/></a>
-        <a href="https://www.facebook.com/ferdinand.manteza.9/"target="_blank"><img src="/Images/facebook.png"style="width:42px;height:42px;"/></a>
-        <a href="https://Codepen.io/Jakezy-kun"target="_blank"><img src="/Images/codepen.png"style="width:42px;height:42px;"/></a>
-        <a href="https://www.instagram.com/jakez_kun/"target="_blank"><img src="/Images/instagram-svgrepo-com (1).png"style="width:42px;height:42px;"/></a>
-        
-       
-       
-               
-
-        <footer>   
-            <p>© 2024 Jakezy All Rights Reserved.</p>
-        
+        <h2 class="heading">Games</h2>
+        <div class="container">
+            <img src="/Favorites Images/Game Images/Valorant.jpg" alt="Valorant Image">
+            <img src="/Favorites Images/Game Images/Mobile Legends.jpg" alt="Mobile Legends Image">
+            <img src="/Favorites Images/Game Images/StarRail.jpg" alt="StarRail Image">
+            <img src="/Favorites Images/Game Images/NBA2K.jpg" alt="NBA2K Image">
+            <img src="/Favorites Images/Game Images/Minecraft.jpg" alt="Minecraft Image">
+        </div>
     
-</center>    
+
+
+    </section>
+
+    <section class="services" id="services"> 
+
+        <h2 class="heading">Talents</h2>
+
+        <div class="service-containers">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bxl-figma'></i>"
+                    <h4>UI / UX Design</h4>
+                    
+
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bx-code'></i>
+                    <h4>Frontend Development</h4>
+                </div>
+            </div>
+
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bx-code-curly'></i>
+                    <h4>Backend Development</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects-box">
+        
+         <div class="projects-card">
+            <img src="/Project Images/SIA WIFI Project.jpg" alt="SIA WIFI PROJECT Image">
+
+
+            <h3>SIA WIFI Project Proposal</h3>
+
+            <p>As  frontend developers we conduct  research on the University's slow Internet performance and have come up a project proposal for our System Integration and Architechture Course.</p>
+
+                <div class="btn">Figma Project UI/UX</div>
+        </div>   
+
+
+        
+
+        <div class="projects-card">
+            <img src="/Project Images/Clini-Guide.jpg" alt="Clini-Guide Project Image">
+
+
+            <h3>Clini-Guide</h3>
+
+            <p>I created a prototype also in my course Human Computer Interaction using FIGMA.</p>
+                <div class="btn">Figma Project UI/UX</div>
+        </div>
+
+        <div class="projects-card">
+            <img src="/Project Images/Service-Hustle.jpg" alt="Service Hustle Project Image">
+
+
+            <h3>Service Hustle</h3>
+
+            <p>I created a prototype also in my course Human Computer Interaction using FIGMA. </p>
+                <div class="btn">Figma Project UI/UX</div>
+        </div>
+
+        <div class="projects-card">
+            <img src="/Project Images/The IT_Lodge.jpg" alt="The IT_Lodge Project Image">
+
+
+            <h3>Hotel Management System</h3>
+
+            <p>In my freshmen year I have created a Hotel Management System plus with a MYSQL XAMP database using Java programming language. </p>
+                <div class="btn">Java GUI Project</div>
+        </div>
+
+
+        <div class="projects-card">
+            <img src="/Project Images/gdsc beta version site.jpg" alt="GDSC UIC Unofficial Site Image">
+
+
+            <h3>GDSC UIC Unofficial Site</h3>
+
+            <p>As a frontend developer for the GDSC UIC we have been tasked to create a website for it so here is my own Unofficial Version of the GDSC UIC  website
+                do in mind that it is still a working progress. </p>
+                <div class="btn">HTML/CSS</div>
+        </div>
+
+
+        <div class="projects-card">
+            <img src="/Project Images/Chrono List Java Project.jpg" alt="Chrono List Java Project Image">
+
+
+            <h3>Chrono-List</h3>
+
+            <p>The ChronoList aims to assist CCS students in efficiently managing and prioritizing their tasks, especially during challenging times with numerous deadlines. This application was developed and created by our team using Java, Netbeans IDE, and a MySQL database. </p>
+                <div class="btn">Java GUI Project</div>
+        </div>
+     </div>
+    </section>
+
+    <section class="badges" id="badges">
+
+        <h2 class="heading">Badges</h2>
+
+        <div class="projects-box">
+
+
+        <div class="projects-card">
+            <img src="/Badges Images/css_badge.png" alt="CSS Badge 1">
+            <h3>Cascading Style Sheets</h3>
+                <div class="btn">Badge</div>
+        </div>
+
+        <div class="projects-card">
+            <img src="/Badges Images/css_badge2.png" alt="CCS Badge 2">
+            <h3>Cascading Style Sheets</h3>
+                <div class="btn">Badge</div>
+      
+        </div>
+        </div>
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Feedback <span>Suggestions?</span></h2>
+
+        <form action="#">
+
+         <div class="input-group">
+            <div class="input-box">
+            <input  type ="text"
+            placeholder="Full Name">
+            <input type="email"
+            placeholder="Email">
+          </div>  
+
+            <div class="input-box">
+                <input  type ="number"
+                placeholder="Phone Number">
+                <input type="text"
+                placeholder="Subject"> 
+            </div>
+        </div> 
+
+        <div class="input-group-2">
+            <textarea name="" id=""
+            placeholder="Your Message"
+            cols="30" rows="10"></textarea>
+            <input type="submit" value="Send Message"
+            class="btn">
+        </div>   
+
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://github.com/Jakezy-kun" target="_blank">
+                <i class='bx bxl-github'></i>
+            </a>
+    
+            <a href="https://www.facebook.com/ferdinand.manteza.9/" target="_blank">
+                <i class='bx bxl-facebook-circle' ></i>
+            </a>
+    
+            <a href="https://www.instagram.com/jakez_kun/" target="_blank">
+                <i class='bx bxl-instagram-alt' ></i>
+            </a>
+    
+            <a href="https://codepen.io/Jakezy-kun" target="_blank">
+                <i class='bx bxl-codepen' ></i>
+            </a>
+
+            <a href="https://youtu.be/bqhCT9gdvD0?feature=shared" target="_blank">
+                <i class='bx bxl-youtube'></i>
+            </a>
+        </div>
+    
+            
+            <ul class="list">
+                <li>
+                    <a href="#services">Talents</a>
+                </li>
+
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>    
+            <p class="copyright">
+                © Manteza 2024 | All Rights Reserved
+            </p>
+    </footer>
+
+
+<script src="script.js"></script> 
+   
 </body>
 </html>
