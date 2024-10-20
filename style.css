@@ -22,7 +22,7 @@
   --main-color:#fc466b;
 }
 
-/* Apply variables */
+
 body {
   background: var(--bg-color);
   color: var(--text-color);
@@ -469,21 +469,21 @@ font-size: 8rem;
 .heading1 {
   font-size: 7rem;
   margin: 5rem 0;
-  text-align: center; /* Center the heading text */
-  margin-bottom: 20px; /* Add some space between the heading and the container */
+  text-align: center; 
+  margin-bottom: 20px; 
 }
 
 .container {
-  margin: 0 auto; /* Centering the container horizontally */
-  width: 80%; /* Increased width for the container */
-  height: 600px; /* Increased height */
+  margin: 0 auto; 
+  width: 80%; 
+  height: 600px; 
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
 .container img {
-  width: 25%; /* Increase the initial width */
+  width: 25%; 
   height: 100%;
   object-fit: cover;
   border-radius: 30px;
@@ -492,7 +492,7 @@ font-size: 8rem;
 }
 
 .container img:hover {
-  width: 90%; /* Increased width on hover */
+  width: 90%; 
 }
 
 .spotify {
