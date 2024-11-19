@@ -1,341 +1,691 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type href="/Images/Detective conan icon bg remover.png">
-</head>
-</head>
-<body>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<header class="header">
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="" type="image/x-icon">
 
-    <a href="#home" class="logo">
-        My<span>Portfolio</span>
-    </a>
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
 
-    <i class="bx bx-menu" id="menu-icon"></i>
+      <!--=============== BOXICONS ===============-->
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <nav class="navbar">
-            
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#favorites">Favorites</a>
-                <a href="#services">Talents</a>
-                <a href="#projects">Projects</a>
-                <a href="#badges">Badges</a>
-                <a href="#contact">Contact</a>
-        </nav>
-        <button id="light-mode-toggle" class="gradient-btn">Light Mode</button>
-</header>    
-
-    <section class="home" id="home">
-        <div class="home-content">
-         <h1>Hello World,</h1>  
-         <h3>I'am a<span> Web Developer</span></h3>
-         <p> Hello there! I'm a novice web developer who is enthusiastic about creating websites and applications that are not only functional but also visually attractive. 
-             At the moment, I am sharpening my abilities in both frontend and backend development, and I am eager to engage in projects that challenge the limits of creativity 
-             and technology.</p>
-
-
-            <div class="social-icons">
-                <a href="https://github.com/Jakezy-kun" target="_blank">
-                    <i class='bx bxl-github'></i>
-                </a>
-
-                <a href="https://www.facebook.com/ferdinand.manteza.9/" target="_blank">
-                    <i class='bx bxl-facebook-circle' ></i>
-                </a>
-
-                <a href="https://www.instagram.com/jakez_kun/" target="_blank">
-                    <i class='bx bxl-instagram-alt' ></i>
-                </a>
-
-                <a href="https://codepen.io/Jakezy-kun" target="_blank">
-                    <i class='bx bxl-codepen' ></i>
-                </a>
-
-                <a href="https://youtu.be/bqhCT9gdvD0?feature=shared" target="_blank">
-                    <i class='bx bxl-youtube'></i>
-                </a>
-            </div>
-
-                <div class="btn-group">
-                <a href="/Webdev Activities/Fashion Blog/index.html" target="_blank" class="btn">Fashion Blog</a>
-                <a href="/Webdev Activities/Healthy Recipe/index.html" target="_blank" class="btn">Healthy Recipe</a>
-                <a href="/Webdev Activities/Olivia Woodruff Portfolio/index.html" target="_blank" class="btn">Olivia Woodruff Portfolio</a>
-          </div>
-        </div>
-        
-        <div class="home-img">
-             <img src="/Images/cropped_image (3).png" alt="profile image">
-        </div>
-    </section>
-
-    <section class="about" id="about">
-
-        <div class="about-img">
-             <img src="/Images/profile-pic-2.jpg" alt="profile image">
-        </div>
-
-        <div class="about-content">
-            <h2>About<span> Me</span></h2>
-            <p>My name is Ferdinand M. Manteza Jr., and I am 21 years old. I am a web developer based in Davao City, Philippines, and currently a second-year student pursuing a Bachelor’s Degree in Information Technology at the University of the Immaculate Conception. 
-                I have a strong passion for technology and enjoy learning about the latest advancements in the field. I am particularly interested in web development and back-end development.</p>
-            <!-- <a href="https://open.spotify.com/playlist/0UfyaNUdNRw2OayV76aNS5?si=0ANSJLMCRueZJthKQuT2CQ" target="_blank" class="btn">JakeZ's Playlists</a> -->
-            <iframe class="spotify" src="https://open.spotify.com/embed/playlist/0UfyaNUdNRw2OayV76aNS5?utm_source=generator&theme=0" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-        </div>
-    </section>
-
-    <section class="favorites" id="favorites">
-        <h2 class="heading">Favorites</h2>
-        
-        <h2 class="heading">Anime</h2>
-        <div class="container">
-            <img src="/Favorites Images/Anime Images/Detective Conan.jpg" alt="Detective Conan Image">
-            <img src="/Favorites Images/Anime Images/One Piece.jpg" alt="One Piece Image">
-            <img src="/Favorites Images/Anime Images/Inuyasha.jpg" alt="Inuyasha Image">
-            <img src="/Favorites Images/Anime Images/Bungo Stray Dogs Season.jpg" alt="Bungo Stray Dogs Image">
-            <img src="/Favorites Images/Anime Images/bleach poster.jpg" alt="Bleach Image">
-        </div>
-    
-        <h2 class="heading">K-drama</h2>
-        <div class="container">
-            <img src="/Favorites Images/K-drama Images/Queen of tears.jpg" alt="Queen of Tears Image">
-            <img src="/Favorites Images/K-drama Images/Business Proposal.jpg" alt="Business Proposal Image">
-            <img src="/Favorites Images/K-drama Images/OUR BELOVED SUMMER.jpg" alt="Our Beloved Summer Image">
-            <img src="/Favorites Images/K-drama Images/Family by Choice KDrama Poster.jpg" alt="Family by Choice Image">
-            <img src="/Favorites Images/K-drama Images/Welcome to Waikiki season 2.jpg" alt="Welcome to Waikiki Season 2 Image">
-        </div>
-        
-        <h2 class="heading">Games</h2>
-        <div class="container">
-            <img src="/Favorites Images/Game Images/Valorant.jpg" alt="Valorant Image">
-            <img src="/Favorites Images/Game Images/Mobile Legends.jpg" alt="Mobile Legends Image">
-            <img src="/Favorites Images/Game Images/StarRail.jpg" alt="StarRail Image">
-            <img src="/Favorites Images/Game Images/NBA2K.jpg" alt="NBA2K Image">
-            <img src="/Favorites Images/Game Images/Minecraft.jpg" alt="Minecraft Image">
-        </div>
-    
-
-
-    </section>
-
-    <section class="services" id="services"> 
-
-        <h2 class="heading">Talents</h2>
-
-        <div class="service-containers">
-            <div class="service-box">
-                <div class="service-info">
-                    <i class='bx bxl-figma'></i>
-                    <h4>UI / UX Design</h4>
-                    
-
-                </div>
-            </div>
-
-            <div class="service-box">
-                <div class="service-info">
-                    <i class='bx bxl-html5' ></i>
-                    <i class='bx bxl-css3' ></i>
-                    <i class='bx bxl-javascript' ></i>
-                    <h4>Frontend Development</h4>
-                </div>
-            </div>
-
-
-            <div class="service-box">
-                <div class="service-info">
-                    <i class='bx bxl-java'></i>
-                    <i class='bx bxl-python'></i>
-                    <h4>Backend Development</h4>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="projects" id="projects">
-
-        <h2 class="heading">Projects</h2>
-
-        <div class="projects-box">
-        
-         <div class="projects-card">
-            <img src="/Project Images/SIA WIFI Project.jpg" alt="SIA WIFI PROJECT Image">
-
-
-            <h3>SIA WIFI Project Proposal</h3>
-
-            <p>As  frontend developers we conduct  research on the University's slow Internet performance and have come up a project proposal for our System Integration and Architechture Course.</p>
-
-                <div class="btn">Figma Project UI/UX</div>
-        </div>   
-
-
-        
-
-        <div class="projects-card">
-            <img src="/Project Images/Clini-Guide.jpg" alt="Clini-Guide Project Image">
-
-
-            <h3>Clini-Guide</h3>
-
-            <p>I created a prototype also in my course Human Computer Interaction using FIGMA</p>
-                <div class="btn">Figma Project UI/UX</div>
-        </div>
-
-        <div class="projects-card">
-            <img src="/Project Images/Service-Hustle.jpg" alt="Service Hustle Project Image">
-
-
-            <h3>Service Hustle</h3>
-
-            <p>I created a prototype also in my course Living in the I.T Era.</p>
-                <div class="btn">Figma Project UI/UX</div>
-        </div>
-
-        <div class="projects-card">
-            <img src="/Project Images/The IT_Lodge.jpg" alt="The IT_Lodge Project Image">
-
-
-            <h3>Hotel Management System</h3>
-
-            <p>In my freshmen year I have created a Hotel Management System plus with a MYSQL XAMP database using Java programming language. </p>
-                <div class="btn">Backend Development</div>
-        </div>
-
-
-        <div class="projects-card">
-            <img src="/Project Images/gdsc beta version site.jpg" alt="GDSC UIC Unofficial Site Image">
-
-
-            <h3>GDSC UIC Unofficial Site</h3>
-
-            <p>As a frontend developer for the GDSC UIC we have been tasked to create a website for it so here is my own Unofficial Version of the GDSC UIC  website
-                do in mind that it is still a working progress. </p>
-                <div class="btn">Frontend Development</div>
-        </div>
-
-
-        <div class="projects-card">
-            <img src="/Project Images/Chrono List Java Project.jpg" alt="Chrono List Java Project Image">
-
-
-            <h3>Chrono-List</h3>
-
-            <p>The ChronoList aims to assist CCS students in efficiently managing and prioritizing their tasks, especially during challenging times with numerous deadlines. This application was developed and created by our team using Java, Netbeans IDE, and a MySQL database. </p>
-                <div class="btn">Backend Development</div>
-        </div>
-     </div>
-    </section>
-
-    <section class="badges" id="badges">
-
-        <h2 class="heading">Badges</h2>
-
-        <div class="projects-box">
-
-
-        <div class="projects-card">
-            <img src="/Badges Images/css 1.jpg" alt="CSS Badge 1">
-            <h3>Cascading Style Sheets</h3>
-                <div class="btn">Badge</div>
-        </div>
-
-        <div class="projects-card">
-            <img src="/Badges Images/css 2.jpg" alt="CCS Badge 2">
-            <h3>Cascading Style Sheets</h3>
-                <div class="btn">Badge</div>
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="style.css">
       
-        </div>
-        </div>
+
+      <title>Portfolio</title>
+   </head>  
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+            <span class="nav__logo-circle">FM</span>
+            <span class="nav__logo-name">PORTFOLIO</span>
+         </a>
 
 
-    <section class="contact" id="contact">
-        <h2 class="heading">Feedback <span>Suggestions?</span></h2>
+         <div class="nav__menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
 
-        <form action="#">
+         <h3 class="nav__name">FM PORTFOLIO</h3>
 
-         <div class="input-group">
-            <div class="input-box">
-            <input  type ="text"
-            placeholder="Full Name">
-            <input type="email"
-            placeholder="Email">
-          </div>  
+         <ul class="nav__list">
+            <li class="nav__item">
+               <a href="#home" class="nav__link active-link">Home</a>
 
-            <div class="input-box">
-                <input  type ="number"
-                placeholder="Phone Number">
-                <input type="text"
-                placeholder="Subject"> 
-            </div>
-        </div> 
+            <li class="nav__item">
+               <a href="#about" class="nav__link">About Me</a>
 
-        <div class="input-group-2">
-            <textarea name="" id=""
-            placeholder="Your Message"
-            cols="30" rows="10"></textarea>
-            <input type="submit" value="Send Message"
-            class="btn">
-        </div>   
+            <li class="nav__item">
+               <a href="#projects" class="nav__link">Projects</a> 
 
-        </form>
-    </section>
+            <li class="nav__item">
+               <a href="#favorite" class="nav__link nav__link-button">Favorites</a>            
+               </li>
 
-    <footer class="footer">
-        <div class="social-icons">
-            <a href="https://github.com/Jakezy-kun" target="_blank">
-                <i class='bx bxl-github'></i>
-            </a>
-    
-            <a href="https://www.facebook.com/ferdinand.manteza.9/" target="_blank">
-                <i class='bx bxl-facebook-circle' ></i>
-            </a>
-    
-            <a href="https://www.instagram.com/jakez_kun/" target="_blank">
-                <i class='bx bxl-instagram-alt' ></i>
-            </a>
-    
-            <a href="https://codepen.io/Jakezy-kun" target="_blank">
-                <i class='bx bxl-codepen' ></i>
-            </a>
+            <li class="nav__item">
+               <a href="#contact" class="nav__link nav__link-button">Contact Me</a>            
+            </li>
 
-            <a href="https://youtu.be/bqhCT9gdvD0?feature=shared" target="_blank">
-                <i class='bx bxl-youtube'></i>
-            </a>
-        </div>
-    
             
-            <ul class="list">
-                <li>
-                    <a href="#services">Talents</a>
-                </li>
+         </ul>
+         
+         <!--Close Button-->
+         <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div> 
+         </div>
 
-                <li>
-                    <a href="#about">About Me</a>
-                </li>
+          <div class="nav__buttons">
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
 
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>   
+            </div> 
+          </div>     
+        </nav>
+      </header>
 
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <h1 class="home__name">
+                  FERDINAND MANTEZA JR.
+               </h1>
 
-            </ul>    
-            <p class="copyright">
-                © Manteza 2024 | All Rights Reserved
-            </p>
-    </footer>
+               <div class="home__perfil">
+                  <div class="home__image">
+                     <img src="/assets/img/profile-pic-2.jpg" alt="image" class="home__img">
+                  <div class="home__shadow"></div>
+
+                  <img src="/assets/img/curved-arrow.svg" alt="" class="home__arrow">
+                  <img src="/assets/img/random-lines.svg" alt="" class="home__line"> 
+                  
+                  <div class="geometric-box"></div>
+               </div>
+               
+               <div class="home__social">
+                     <a href="https://github.com/Jakezy-kun" target="_blank" class="home__social-link">
+                        <i class="ri-github-line"></i>
+                     </a>
+
+                     <a href="https://www.youtube.com/watch?v=bqhCT9gdvD0" target="_blank" class="home__social-link">
+                        <i class="ri-youtube-line"></i>
+                     </a>
+
+                     <a href="https://codepen.io/Jakezy-kun" target="_blank" class="home__social-link">
+                        <i class='bx bxl-codepen'></i>
+                     </a>
+
+                     <a href="https://www.facebook.com/ferdinand.manteza.9/" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-circle-fill"></i>
+                     
+                        <a href="https://www.instagram.com/jakez_kun/" target="_blank" class="home__social-link">
+                           <i class="ri-instagram-line"></i>
+                          </a>   
+                     </a>
+                  </div>
+               </div>
+
+               <div class="home__info">
+                  <p class="home__description">
+                     I'm a novice web developer who is enthusiastic about creating 
+                     websites and applications that are not only functional but also visually attractive.
+                      At the moment, I am sharpening my abilities to become a <b>Full-stack Developer.</b>
+                      
 
 
-<script src="script.js"></script> 
-   
-</body>
+                  </p>
+
+
+                  <a href="#about" class="home__scroll">
+                  <div class="home__scroll-box">
+                     <i class="ri-arrow-down-s-line"></i>
+                  </div>
+
+                  <span class="home__scroll-text">Scroll Down</span>
+                </a>
+               </div>
+            </div>    
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about__container container grid">
+               <h2 class="section__title-1">
+                <span>About Me.</span>
+               </h2>     
+
+               <div class="about__perfil">
+                  <div class="about__image">
+                     <img src="/assets/img/gradpic.jpg" alt="image" class="about__img">
+                     <div class="about__shadow"></div>
+                     
+                     <div class="geometric-box"></div>
+                     <img src="/assets/img/random-lines.svg" alt="" class="about__line">
+                  <div class="about__box"></div>
+                  </div>
+               </div>
+
+               <div class="about__info">
+                  <p class="about__description">
+                     My name is Ferdinand M. Manteza Jr., and I am 21 years old. I am a web developer based in Davao City, Philippines, 
+                     and currently a second-year student pursuing a Bachelor’s Degree in Information Technology at the University of the Immaculate Conception. 
+                     
+
+
+                  </p>
+
+                  <ul class="about__list">
+                     <li class="about__item">
+                     I have a strong passion for technology and enjoy learning about the latest advancements in the field. I am particularly interested in web development 
+                     and back-end development.
+                     </li>
+                  </ul>
+
+                  <iframe class="spotify" src="https://open.spotify.com/embed/playlist/0UfyaNUdNRw2OayV76aNS5?utm_source=generator&theme=0" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section">
+            <h2 class="section__title-2">
+               <span>Talents.</span>
+            </h2>
+
+            <div class="services__container container grid">
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <div class="services__box"></div>
+                        <i class="ri-layout-4-line"></i>
+                        
+
+                     </div>
+
+                     <h2 class="services__title">Graphic Designer</h2>
+
+                     <p class="services__description">
+                        A novice student who is proficient in Figma, Adobe Photoshop, and Illustrator, 
+                        with a strong ability to design visually compelling and 
+                        user-friendly graphics.
+
+                     </p>
+                  </div>
+               </article>
+
+
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <div class="services__box"></div>
+                        <i class='bx bx-code-alt' ></i>
+
+
+                     </div>
+
+                     <h2 class="services__title">Backend-Development</h2>
+
+                     <p class="services__description">
+                        A novice student with a knowledge in Java, Python, 
+                        and MySQL backend development.
+                     </p>
+                  </div>
+               </article>
+
+
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icon">
+                        <div class="services__box"></div>
+                        <i class='bx bx-code-curly' ></i>
+
+
+                     </div>
+
+                     <h2 class="services__title">Frontend-Development</h2>
+
+                     <p class="services__description">
+                        A novice student with a knowledge in Java GUI development
+                         and HTML/CSS/JavaScript for front-end design.
+                     </p>
+                  </div>
+               </article>
+            </div>
+         </section>
+
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            <h2 class="section__title-1">
+               <span>Projects.</span>
+            </h2>
+
+            <div class="projects__container container grid">
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="/project picture/The IT_Lodge (1).jpg" alt="image" class="projects__img">
+                  
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">JAVA GUI</h3>
+                     <h2 class="projects__title">HOTEL MANAGEMENT SYSTEM</h2>
+
+                     <p class="projects__description">
+                        In my freshmen year I have created a Hotel Management 
+                        System plus with a MYSQL XAMP database using Java programming language.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/Jakezy-kun" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i>View
+                     </a>
+
+                     <a href="https://github.com/Jakezy-kun" target="_blank" class="projects__link">
+                        <i class='bx bx-link-alt'></i>View 
+                     </a>
+                  </div>
+               </article>
+
+
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="/project picture/Chrono List Java Project (1).jpg" alt="image" class="projects__img">
+                  
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">JAVA GUI</h3>
+                     <h2 class="projects__title">CHRONO-LIST</h2>
+
+                     <p class="projects__description">
+                        The ChronoList aims to assist CCS students in efficiently managing and 
+                        prioritizing their tasks, especially during challenging times with numerous deadlines. 
+                        This application was developed and created by our team using Java, Netbeans IDE, 
+                        and a MySQL database.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/Jakezy-kun" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i>View
+                     </a>
+
+                     <a href="https://github.com/Jakezy-kun" target="_blank" class="projects__link">
+                        <i class='bx bx-link-alt'></i>View 
+                     </a>
+                  </div>
+               </article>
+
+
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="/project picture/gdsc beta version site (1).jpg" alt="image" class="projects__img">
+                  
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">HTML/CSS/JAVASCRIPT</h3>
+                     <h2 class="projects__title">GDSC Website</h2>
+
+                     <p class="projects__description">
+                        As a frontend developer for the GDSC UIC
+                         we have been tasked to create a website for it so here 
+                         is my own Unofficial Version of the GDSC UIC website do in 
+                         mind that it is still a working progress.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/Jakezy-kun" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i>View
+                     </a>
+
+                     <a href="https://github.com/Jakezy-kun" target="_blank" class="projects__link">
+                        <i class='bx bx-link-alt'></i>View 
+                     </a>
+                  </div>
+               </article>
+
+
+
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="/assets/img/Fashion blog Pic.jpg" alt="image" class="projects__img">
+                  
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">HTML</h3>
+                     <h2 class="projects__title">FASHION BLOG</h2>
+
+                     <p class="projects__description">
+                        ACTIVITY for the CC008.23 course
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/Jakezy-kun" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i>View
+                     </a>
+
+                     <a href="/Webdev Activities/Fashion Blog/index.html" target="_blank" class="projects__link">
+                        <i class='bx bx-link-alt'></i>View 
+                     </a>
+                  </div>
+               </article>
+
+
+
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="/assets/img/Healthy Recipe Pic.jpg" alt="image" class="projects__img">
+                  
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">HTML/CSS</h3>
+                     <h2 class="projects__title">HEALTHY RECIPE</h2>
+
+                     <p class="projects__description">
+                        ACTIVITY for the CC008.23 course
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/Jakezy-kun" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i>View
+                     </a>
+
+                     <a href="/Webdev Activities/Healthy Recipe/index.html" target="_blank" class="projects__link">
+                        <i class='bx bx-link-alt'></i>View 
+                     </a>
+                  </div>
+               </article>
+
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="/assets/img/Olivia Pic .jpg" alt="image" class="projects__img">
+                  
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">HTML/CSS</h3>
+                     <h2 class="projects__title">OLIVIA WOODRUFF PORTFOLIO</h2>
+
+                     <p class="projects__description">
+                        ACTIVITY for the CC008.23 course
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/Jakezy-kun" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i>View
+                     </a>
+
+                     <a href="/Webdev Activities/Olivia Woodruff Portfolio/index.html" target="_blank" class="projects__link">
+                        <i class='bx bx-link-alt'></i>View 
+                     </a>
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="/project picture/Pokemon API Pic.jpg" alt="image" class="projects__img">
+                  
+                     <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">HTML/CSS/JAVASCRIPT</h3>
+                     <h2 class="projects__title">API POKEMON GENERATOR</h2>
+
+                     <p class="projects__description">
+                        This is also an ACTIVITY for the CC008.23 course
+                         This is a pokemon card generator features a button labeled Generate. 
+                         Upon clicking the button, a card appears showcasing a random
+                         Pokémon name, image, and additional statistics. While connecting it 
+                         to the POKI API dataset.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/Jakezy-kun" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i>View
+                     </a>
+
+                     <a href="/Webdev Activities/Pokemon API/index.html" target="_blank" class="projects__link">
+                        <i class='bx bx-link-alt'></i>View 
+                     </a>
+                  </div>
+               </article>
+
+
+
+            </div>
+         </section>
+
+          <!--==================== FAVORITES ====================-->
+          <section class="projects section" id="favorite">
+            <h2 class="section__title-1">
+               <span>Favorites.</span>
+            </h2>
+
+            <div class="projects__container container grid">
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="/assets/img/Anime Pic.jpg" alt="image" class="projects__img">
+                  </div>
+               </article>
+
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="/assets/img/K-drama Pic.jpg" alt="image" class="projects__img">
+                  </div>
+               </article>
+               
+               <article class="projects__card">
+                  <div class="projects__image">
+                     <img src="/assets/img/Games Pic.jpg" alt="image" class="projects__img">
+                  
+                     <!-- <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a>
+                  </div>
+
+                  <div class="projects__content">
+                     <h3 class="projects__subtitle">App</h3>
+                     <h2 class="projects__title">Fast Food App</h2>
+
+                     <p class="projects__description">
+                        Project that you carry out in the design 
+                        and structure of the layout, showing the 
+                        design at the client's request.
+                     </p>
+                  </div>
+
+                  <div class="projects__buttons">
+                     <a href="https://github.com/Jakezy-kun" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i>View
+                     </a>
+
+                     <a href="https://github.com/Jakezy-kun" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i>View 
+                     </a> -->
+                  </div>
+               </article>
+
+               
+                  </div>
+               </article>
+            </div>
+         </section>
+
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <div class="contact__container grid">
+               <div class="contact__data">
+                  <h2 class="section__title-2">
+                     <span>Contact Me</span>
+                  </h2>
+
+                  <p class="contact__description-1">
+                     You can contact me by sending through 
+                     my email.
+                     
+                  </p>
+
+                  <p class="contact__description-1">
+                     Additionally in the  <b>Email</b> and <b>Subject</b>, fields
+                     you will need to end it with your "@email.com" to send your
+                     message to me.
+                  </p>
+
+                  <div class="geometric-box"></div>
+               </div>
+
+               <div class="contact__mail">
+                  <h2 class="contact__title">
+                     Send Me A Message
+                  </h2>
+
+                  <form action="" class="contact__form" id="contact-form">
+                     <div class="contact__group">
+                        <div class="contact__box">
+                           <input type="text" name="user_name"class="contact__input" id="name" required placeholder="First Name">
+                           <label for="name" class="contact__label">First Name</label>
+                        </div>
+
+                        <div class="contact__box">
+                           <input type="email" name="user_subject"class="contact__input" id="email" required placeholder="Email Address">
+                           <label for="email" class="contact__label">Email Address</label>
+                        </div>
+                     </div>
+
+                     <div class="contact__box">
+                        <input type="email" name="user_subject"class="contact__input" id="subject" required placeholder="Subject">
+                        <label for="subject" class="contact__label">Subject</label>
+                     </div>
+
+                     <div class="contact__box contact__area">
+                        <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
+                        <label for="message" class="contact__label">Message</label>
+                     </div>
+
+                     <p class="contact__message" id="contact-message"></p>
+
+                     <button type="submit"class="contact__button button">
+                        <i class="ri-send-plane-line"></i> Send Message
+                     </button>
+                  </form>
+               </div>
+
+               <div class="contact__social">
+                  <img src="/assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
+                  
+
+                  <div class="contact__social-data">
+                     <div>
+                        <p class="contact__social-description-1">
+                           Hi! you can Connect through my other Socials.
+                        </p>
+
+                        <p class="contact__social-description-2">
+                           These are my other Social Networks
+                        </p>
+                     </div>
+
+                     <div class="contact__social-links">
+                        <a href="https://www.facebook.com/ferdinand.manteza.9" target="_blank"class="contact__social-link">
+                           <i class="ri-facebook-circle-line"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank"class="contact__social-link">
+                           <i class="ri-instagram-line"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com/watch?v=bqhCT9gdvD0" target="_blank" class="home__social-link">
+                           <i class="ri-youtube-line"></i>
+                        </a>
+
+                        <a href="https://codepen.io/Jakezy-kun" target="_blank" class="home__social-link">
+                           <i class='bx bxl-codepen'></i>
+
+                        <a href="https://github.com/Jakezy-kun" target="_blank"class="contact__social-link">
+                           <i class="ri-github-line"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <ul class="footer__links">
+               <li>
+                  <a href="#about" class="footer__link">About</a>
+               </li>
+
+               <li>
+                  <a href="#services" class="footer__link">Services</a>
+               </li>
+
+               <li>
+                  <a href="#projects" class="footer__link">Projects</a>
+               </li>
+
+               <li>
+                  <a href="#favorite" class="footer__link">Favorites</a>
+               </li>
+            </ul>
+
+            <span class="footer__copy">
+               ©2024 | All Rights Reserved
+               <a href="#">FMANTEZA</a>
+            </span>
+         </div>
+      </footer>Since there is no selected code, I will provide a general improvement to the HTML structure and add some accessibility features.
+
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-s-line"></i>
+
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src=""></script>
+      
+      <!--=============== EMAIL JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <!-- <script src="assets/js/main.js"></script> -->
+
+      <script src="script.js"></script> 
+   </body>
 </html>
