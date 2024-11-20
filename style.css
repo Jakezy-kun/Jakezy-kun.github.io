@@ -104,7 +104,7 @@ img {
   transition: color .3S;
 }
 
-/*========== Variables Dark Mode ==========*/
+/*==========  Dark Mode ==========*/
 body.dark-theme{
   --first-color: hsl(266, 100%, 50%);
   --black-color: hsl(0, 0%, 18%);
@@ -198,7 +198,7 @@ body.dark-theme{
   content: "";
   width: 40px;
   height: 28px;
-  background-color: hsla(14, 98%, 50%, .2);
+  background-color: hsla(258, 39%, 49%, 0.904);
   position: absolute;
   top: -4px;
   right: -8px;
