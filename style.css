@@ -132,7 +132,7 @@ body.dark-theme{
 
 .dark-theme .home__description b{
   background: linear-gradient(90deg,
-              hsla(14, 80%, 50%, .3),
+              hsla(258, 39%, 49%, 0.904),
               hsla(14, 80%, 50%, 0));
 }
 
@@ -497,7 +497,7 @@ body.dark-theme{
 
 .home__description b{
   background: linear-gradient(90deg,
-              hsla(261, 98%, 50%, 0.863),
+              hsla(261, 36%, 59%, 0.863),
               hsla(14, 98%, 50%, 0));
 }
 
