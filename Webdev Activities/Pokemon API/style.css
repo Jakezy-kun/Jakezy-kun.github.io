@@ -77,3 +77,22 @@ body {
   border: none;
   border-radius: 5px;
 }
+
+
+.btn-portfolio {
+  display: inline-block; /* Make it look like a button */
+  padding: 10px 20px; /* Add some padding */
+  background-color: rgb(80, 3, 221); /* Violet background */
+  color: white; /* White font color */
+  text-decoration: none; /* Remove underline */
+  font-size: 1rem; /* Font size */
+  font-weight: bold; /* Bold text */
+  border-radius: 5px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+  text-align: center; /* Center text */
+}
+
+.btn-portfolio:hover {
+  background-color: rgb(155, 56, 197); /* Darker violet on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
