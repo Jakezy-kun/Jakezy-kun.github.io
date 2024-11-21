@@ -1127,6 +1127,64 @@ transition: background-color .4s;
 
 
 
+.container-fav {
+  margin: 100px auto; 
+  width: 60%;  
+  max-width: 1200px; 
+  height: 450px;  
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  gap: 10px;
+}
+
+.container-fav img {
+  width: 20%;  
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;  
+  border: 2px solid rgba(84, 0, 240, 0.684);
+  transition: transform ease-in-out 0.5s; /* Smooth transition */
+}
+
+.container-fav img:hover {
+  transform: scale(1.125); /* Scale up on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .container-fav {
+    flex-direction: column; /* Stack images vertically on smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+  }
+  
+  .container-fav img {
+    width: 60%; /* Adjust width for vertical alignment */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 450px; /* Keep the maximum height consistent */
+  }
+}
+
+@media (max-width: 480px) {
+  .container-fav {
+    margin: 30px auto; /* Further reduce margin on very small screens */
+  }
+
+  .container-fav img {
+    width: 80%; /* Adjust width for very small screens */
+    max-height: 300px; /* Optional: Limit max height */
+  }
+}
+
+
+.heading-fav{
+  text-align: center;
+  font-size: 2rem;
+  margin: 6rem 0;
+}
+
+
+
 
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
